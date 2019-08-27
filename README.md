@@ -14,7 +14,7 @@ npm install
 
 2. run code
 
-3. ```bash
+   ```bash
    npm start
    ```
 
