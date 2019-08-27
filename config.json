@@ -1,0 +1,38 @@
+{
+  "token": "GITHUB_ACCESS_TOKEN",
+  "repos": [
+    "OWNER/REPOSITORY"
+  ],
+  "labels" : [
+    {
+      "name": "bug",
+      "description": "bug",
+      "color": "d73a4a"
+    },
+    {
+      "name": "hotfix",
+      "description": "hofix",
+      "color": "bf1fb2"
+    },
+    {
+      "name": "feature",
+      "description": "feature",
+      "color": "7ee046"
+    },
+    {
+      "name": "enhancement",
+      "description": "enhancement",
+      "color": "2ec7c9"
+    },
+    {
+      "name": "staging",
+      "description": "pull request for staging branch",
+      "color": "001799"
+    },
+    {
+      "name": "release",
+      "description": "pull request from staging to master branch",
+      "color": "027800"
+    }
+  ]
+}
