@@ -16,9 +16,11 @@ async function main() {
       for (const label of config.labels) {
         if (labelSet.has(label.name)) {
           await issue.editLabel(label.name, label);
+          console.log(`edited label '${label.name}'`);
         } else {
           await issue.createLabel(label);
           labelSet.add(label.name);
+          console.log(`added label '${label.name}'`);
         } 
       }
     }
